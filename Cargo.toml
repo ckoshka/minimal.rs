@@ -12,10 +12,10 @@ default-features = false
 version = "0.1"
 
 [dependencies.term_macros]
-path = "../../shared/term_macros"
+git = "https://github.com/ckoshka/term_macros"
 
 [package]
 authors = ["Anonymous"]
-edition = "2018"
+edition = "2021"
 name = "minimal"
 version = "0.1.0"
